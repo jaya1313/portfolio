@@ -1,0 +1,335 @@
+navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    max-width: 1600px;
+    margin: 0 auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px 20px;
+    }
+    navbar:hover{
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 20px gray;
+    }
+.navbar-links{
+    display: flex;
+    gap: 20px;
+}
+.navbar-links>a{
+    color:beige;
+    text-shadow: 1px 1px 0 brown;
+    text-decoration: none;
+    font-size: medium;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.navbar-links:hover{
+  color:brown;
+}
+.navbar-logo>img{
+    border-radius: 60%;
+}
+.herosection{
+   max-width: 1500px;
+   padding: 20px;
+   height: 70vh;
+   border-radius: 25px;
+  
+   margin: 5px auto;
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   
+   gap: 55px;
+
+}
+.h{
+    padding: 10px 80px;
+    color:beige;
+}
+.H1{
+    padding: 6px 80px;
+    color:beige
+}
+.hero-link{
+  padding: 20px 80px;
+}
+.hero-link>a{
+  text-align: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: 20px;
+  color:rgb(27, 24, 20);
+  border: 2px solid rgb(32, 29, 25);
+  border-radius: 7px;
+  background-color: rgb(249, 227, 199);
+
+}
+
+
+.intro{
+    padding: 10px 80px;
+    color:beige;
+
+
+}
+.boxes{
+    padding: 50px 80px;
+    display: flex;
+    gap: 20px;
+    color:beige;
+    text-align: center;
+
+}
+.boxes>img{
+  text-align: center;
+}
+/*.box{
+    /*border: 1px solid beige;
+    border-radius: 10pxpx;
+}
+.box2{
+ /* border: 1px solid beige;
+    border-radius: 10px;
+}*/
+.box2>p>a{
+  text-decoration: none;
+  color: beige;
+
+}
+.image{
+    padding: 50px 200px;
+    justify-content: space-evenly;
+}
+.image>img{
+      border: 1px solid beige;
+      border-radius: 60%;
+      border-style: dotted
+
+}
+.image>img:hover{
+  opacity:0.7;
+  transform: rotate(60deg);
+}
+.about-section {
+      background-color: black;
+      box-sizing: border-box;
+      max-width: 1500px;
+      margin: 5px ;
+      padding: 60px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+    }
+    .about-section:hover{
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 20px gray;
+    }
+
+    .about-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+      color: beige;
+    }
+
+    .about-text {
+      font-size: 1.3em;
+      color:beige;
+      line-height: 1.6;
+      padding: 30px;
+    }
+    about-text:hover{
+      color: red;
+
+    }
+    
+
+    .highlight {
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .about-section {
+        padding: 20px;
+      }
+
+      .about-title {
+        font-size: 1.5em;
+      }
+    }
+    .education{
+        font-size: 2em;
+      margin-bottom: 20px;
+      color: beige;
+
+    }
+    .edu-item{
+      padding: 0 10px;
+      box-sizing: border-box;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 1.3em;
+      color:black;
+      gap: 20px;
+       border: 1px solid wheat;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgb(236, 210, 233);
+        background-color: rgb(249, 219, 239);
+    }
+    .item-one{
+      border-radius: 10px;
+      flex: 1;
+      padding: 20px;
+    }
+    .item-two{
+      box-sizing: border-box;
+      flex: 1;
+      padding: 20px;
+    
+    }
+    .item-three{
+      box-sizing: border-box;
+      flex: 1;
+      padding: 20px;
+      
+    }
+    .certificate>a{
+        font-size: 1.5em;
+        text-align: center;
+        text-decoration: none;
+        color: wheat;
+        padding:100px 500px;
+       
+    }
+    .project{
+        background-color: black;
+      max-width: 1500px;
+      margin: 5px ;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+     
+    }
+    .project:hover{
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 20px gray;
+    }
+    .project-title{
+        font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+      color: beige;
+    }
+    .project1{
+      color: rgb(153, 223, 244);
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      padding: 30px 0px;
+      font-size: 1.5em;
+    }
+    .project-text{
+      color: rgb(241, 235, 240);
+      font-size: 1.5em;
+    }
+
+    .project-container{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content:space-between;
+    }
+    .project-box{
+      background-color: gray;
+      border-radius: 15px;
+      width: 350px;
+      height: 400px;
+      padding: 50px 30px;
+      text-align: center;
+      transition: transform 0.3s,box-shadow 0.3s;
+      box-shadow: 0 6px 10px gray;
+    }
+    .project-box:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 20px gray;
+    }
+    .project-box>h3{
+      margin-bottom: 10px;
+      color: beige
+    }
+    .project-box>p{
+      font-size: 14px;
+      color: black;
+    }
+    @media(max-width: 600px){
+      .project-box{
+        width: 90%;
+      }
+    }
+    .contact{
+       background-color: black;
+      max-width: 1500px;
+      margin: 5px ;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 25px;
+     
+    }
+    .contact:hover{
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 20px gray;
+
+    }
+    .contact-title{
+      color: beige;
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .contact-title1{
+      color: azure;
+      padding: 20px 20px;
+      text-align: center;
+    }
+    .contact-form{
+      color: beige;
+      display: flex;
+      justify-content:space-around;
+      padding: 50px;
+      border: 2px solid beige;
+      border-radius: 10px;
+      background-color: rgba(249, 219, 239, 0.623);
+      box-shadow: 0 8px 20px rgb(243, 213, 239);
+     
+    }
+    .form-details{
+      color: black;
+      padding-right: 200px;
+    }
+    .form-details:hover{
+      transform: translateY(-8px) scale(1.02);
+    }
+    .form-follow{
+      color: black;
+      border: 2px solid bisque;
+      border-radius: 20px;
+      background-color:azure ;
+      width: 300px;
+      height: 500px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: beige;
+      
+    }
+    .form-follow:hover{
+      
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 8px 20px gray;
+        
+    }
+   
+
+
